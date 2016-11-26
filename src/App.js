@@ -3,16 +3,6 @@ import CommitView from './CommitView';
 import logo from './logo.svg';
 import './App.css';
 
-const state = [
-    {
-        id: "1",
-        description: "pool"
-    },{
-        id: "2",
-        description: "table"
-    }
-];
-
 const App = () => {
   return (
     <div className="App">
@@ -23,7 +13,7 @@ const App = () => {
       <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
       </p>
-      <CommitView commits={state}/>
+      <CommitView/>
     </div>
   );
 }
