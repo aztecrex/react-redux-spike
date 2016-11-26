@@ -17,6 +17,4 @@ const commits = (state = {}, action) => {
     }
 };
 
-
 export default commits;
-
